@@ -75,12 +75,12 @@ class MainActivity : AppCompatActivity(), GestureDetector.OnGestureListener {
         if (e1.x <= e2.x){
             txv.text = "FB：許梓揚\nIG：orange_yang.\nE-mail：asd350801@gmail.com"
             count++
-            if(count>5){count=0}
+            if(count>3){count=0}
         }
         else{
             txv.text = "此程式僅用於靜宜大學行動應用軟體開發"
             count--
-            if(count<0){count=5}
+            if(count<0){count=3}
         }
         var res:Int = getResources().getIdentifier("pu" + count.toString(),
             "drawable", getPackageName())
