@@ -2,19 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bg"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/pu0"
-    android:id="@+id/bg"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/txv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/txv"
-        android:text="手勢辨別"
-        android:textSize="36sp"
-        />
+        android:gravity="center"
+        android:text="資管二Ａ 411030143 許梓揚\n自我介紹\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n點擊下一頁"
+        android:textSize="30sp" />
 
 </LinearLayout>
